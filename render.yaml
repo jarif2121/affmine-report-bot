@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: affmine-report-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
