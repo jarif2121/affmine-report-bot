@@ -15,14 +15,14 @@ def format_message(data):
     ip = data.get("ip", "N/A")
 
     message = (
-        f"🖥 : CpaFull_Dashboard 🇧🇩\n\n"
-        f"🙎 : {aff_sub}\n"
-        f"💰 : {payout}\n"
-        f"🎁 : {offer_name}\n"
-        f"📶 : {conversation}\n"
-        f"⏱️ : {datetime}\n"
-        f"🆘 : {ip}\n\n"
-        f"🌼 Alahamdulillah 🌼"
+        f"CPA Lead Report\n\n"
+        f"Affiliate: {aff_sub}\n"
+        f"Payout: {payout}\n"
+        f"Offer: {offer_name}\n"
+        f"Campaign Info: {conversation}\n"
+        f"Time: {datetime}\n"
+        f"IP Address: {ip}\n\n"
+        f"Status: Alhamdulillah"
     )
     return message
 
