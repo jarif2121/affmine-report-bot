@@ -1,7 +1,7 @@
 from flask import Flask, request
 import requests
 
-app = Flask(name)
+app = Flask(__name__)
 
 TELEGRAM_BOT_TOKEN = "8314345509:AAFfdLoRpJGXweYrQnhem6Y_ffGIsgCOc4o"
 CHAT_ID = "-1002980195580"
